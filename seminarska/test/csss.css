@@ -1,0 +1,108 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 0;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700; /* Change color on hover (you can use any color you like) */
+}
+
+/* Section styles */
+section {
+    padding: 2em;
+}
+
+/* Form styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-section {
+    background-color: #ffd700;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    /* New styles for alignment and positioning */
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
